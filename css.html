@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is CSS?</title>
+    <link rel="icon" href="src/img/ref.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!--Navigatiov Section-->
+    <nav id="mynav" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#"><span class="ml-3"><i style="font-size: 3rem;"
+                    class="fab fa-html5"></i></span></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul id="mylist" class="ml-auto navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="linkhtml" href="html.html">Html</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="linkcss" href="#">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="linkjs" href="js.html">Javascript</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="divider"></div>
+    <!--Navigatiov Section ends-->
+
+    <div class="jumbotron">
+        <div class="card-overlay">
+            <div class="anim">
+                <h1 class="tac"><i class="fab fa-css3 jumbo-img"></i></h1>
+                <h1 class="text-white font-weight-bold text-center">What is CSS?</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5 pt-4">
+            <div class="col-5 text-center">
+                <i style="font-size:12rem;" class="text-primary fas fa-magic"></i>
+            </div>
+            <div id="cent" class="col-5  text-center">
+                <p><strong>CSS</strong> is a styling language used to style the elements present on a webpage. Files that contain all the css code are called <strong>stylesheets.</strong>
+                   Elements are targetted in the stylesheet by using <strong>"."</strong> for a class & <strong>"#"</strong> for an Id.<br>
+                    Your stylesheet can be <em>linked</em> to your webpage by link tag inside the head tag.<br><br><strong>CSS Stylesheet Structure:</strong></p>
+            </div>
+        </div>
+        <div class="row mt-5 pt-5">
+            <div class="col-4 text-center">
+                <div class="card text-dark">
+                    <i style="font-size:8rem;" class="fas fa-dot-circle"></i>
+                    <div class="card-body">
+                        <p>Targetting Class<br>
+                            <hr>.my-class {<br>font-size: 10px;<br>color:pink; }
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="card text-dark">
+
+                    <i style="font-size:8rem;" class=" fas fa-hashtag"></i>
+                    <div class="card-body">
+                        <p>Targetting ID<br>
+                            <hr>#myId {<br>padding-top:22px;<br>border : 1px solid black; }
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="card text-dark">
+                    <i style="font-size:8rem;" class="fas fa-asterisk"></i>
+                    <div class="card-body">
+                        <p>Targetting All Elements<br>
+                            <hr>* {font:family: sans serif; } <br> <span class="text-secondary">Applies to the whole webpage</span>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row pb-2">
+            <div class="col-12 text-center">
+                <h1 class="pt-5">Basic combination of <strong>Css</strong> & <strong>webpage</strong>
+                    <hr>
+                </h1>
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col-4  text-center text-dark">
+                <h3><u>HTML</u></h3>
+            </div>
+            <div class="col-4  text-center text-dark">
+                <h3><u>CSS</u></h3>
+            </div>
+            <div class="col-4  text-center text-dark">
+                <h3><u>Output</u></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <!--Displaying html as text, sourced from https://www.internetingishard.com/html-and-css/basic-web-pages/-->
+                &lt;!DOCTYPE html&gt;<br>
+                <hr>
+                &lt;head&gt;<br>
+                <span style="font-size:0.7em;" class="text-secondary">CSS is always linked at the very end of head</span><br>
+
+                &lt;title&gt; My fancy example &lt;/title&gt;<br>
+               <strong>&lt;link rel="stylesheet" href="myfolder/mycss"&gt;<br>   </strong>             
+                
+                <br> &lt;/head&gt;<br>
+                <hr>
+                &lt;body&gt;<br>
+                <strong>&lt;div class="myclass"&gt;</strong>Stylized Content&lt;div&gt;<br>
+                &lt;/body&gt;<br>
+                <hr>
+                &lt;/html&gt;
+            </div>
+
+            <div class="col-lg-4 col-sm-12 border">
+                <div style="height: 50px;" class="row bg-dark mb-4">
+                    <div class="col-12 text-center my-auto text-white">
+                        <h5>mycss</h5>
+                    </div>
+                </div>
+                .myclass{<br>
+                    font:size: 12px;<br>
+                    color: grey;<br>
+                    font-decoration: underlined;<br>  
+                    text-align: center;
+                }
+            </div>
+
+            <div class="col-lg-4 col-sm-12 border">
+                <div style="height: 50px;" class="row bg-dark">
+                    <div class="col-12 text-center my-auto text-white">
+                        <h5>My fancy example</h5>
+                    </div>
+                </div>
+                <!DOCTYPE html>
+                <html>
+
+                <body>
+                    <p style="font-size: 12px; color: grey; text-decoration: underline;" class="pt-5 text-center">Stylized Content</p>
+                </body>
+
+                </html>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer fixed pt-5">
+        <div style="height: inherit;" class="row bg-dark mx-auto">
+            <div class="col-lg-10 col-md-8 col-sm-9 footer-txt">
+                <ul>
+                    <li style="font-size: 1.2rem;">Quick Links:</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="html.html">Html</a></li>
+                    <li><a href="js.html">Javascript</a></li>
+                    <p class="mt-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<i
+                            class="ml-3 text-secondary fab fa-facebook"></i><i
+                            class="ml-1 text-secondary fab fa-github"></i></p>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-3 d-lg-block d-md-block d-none ml-auto footer-img">
+                <i style="font-size: 10rem;" class=" text-secondary fab fa-html5"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
