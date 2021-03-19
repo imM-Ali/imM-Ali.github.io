@@ -20,7 +20,7 @@
     
     <!--Navigatiov Section-->
     <nav id="mynav" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#"><span class="ml-3"><i style="font-size: 3rem;"
+        <a class="navbar-brand" href="index.html"><span class="ml-3"><i style="font-size: 3rem;"
                     class="fab fa-html5"></i></span></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,12 +84,19 @@
             </div>
 
         </div>
+         <!--View source button sourced from 
+    https://stackoverflow.com/questions/41945094/add-option-to-view-source-of-current-html-page -->
+        <div class="row mt-5 mb-2">
+        <div class="col-12 text-center">
+            <button class="btn btn-primary" type ="button" onclick="viewSource()">View HTML</button>
+        </div>            
+        </div>
 
 
 
 
     </div>
-    <div class="footer fixed pt-5">
+    <div class="footer fixed pt-sm-2 pt-md-4 pt-lg-5">
         <div style="height: inherit;" class="row bg-dark mx-auto">
             <div class="col-lg-10 col-md-8 col-sm-9 footer-txt">
                 <ul>
@@ -97,7 +104,7 @@
                     <li><a href="html.html">Html</a></li>
                     <li><a href="css.html">CSS</a></li>
                     <li><a href="js.html">Javascript</a></li>
-                    <p class="mt-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<i
+                    <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<i
                             class="ml-3 text-secondary fab fa-facebook"></i><i
                             class="ml-1 text-secondary fab fa-github"></i></p>
                 </ul>
@@ -116,6 +123,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    
 
     <!--Works but not included in final submission because navigation refuses to work-->
     <!--All html pages could be loaded on the same page through this javascript rather than loading as a seperate page-->
