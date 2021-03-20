@@ -33,13 +33,13 @@
                     <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="linkhtml" href="html.html">Html</a>
+                    <a class="nav-link" id="linkhtml" href="pages/html.html">Html</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="linkcss" href="css.html">CSS</a>
+                    <a class="nav-link" id="linkcss" href="pages/css.html">CSS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="linkjs" href="js.html">Javascript</a>
+                    <a class="nav-link" id="linkjs" href="pages/js.html">Javascript</a>
                 </li>
 
             </ul>
@@ -101,10 +101,11 @@
             <div class="col-lg-10 col-md-8 col-sm-9 footer-txt">
                 <ul>
                     <li style="font-size: 1.2rem;">Quick Links:</li>
-                    <li><a href="html.html">Html</a></li>
-                    <li><a href="css.html">CSS</a></li>
-                    <li><a href="js.html">Javascript</a></li>
-                    <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<a style="font-size: 25px;" href="https://github.com/imM-Ali/imM-Ali.github.io" class="ml-1 text-secondary fab fa-github"></a></p>
+                    <li><a href="pages/html.html">Html</a></li>
+                    <li><a href="pages/css.html">CSS</a></li>
+                    <li><a href="pages/js.html">Javascript</a></li>
+                    <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463
+                        <a style="font-size: 25px;" href="https://github.com/imM-Ali/imM-Ali.github.io" class="ml-1 text-secondary fab fa-github"></a></p>
                 </ul>
             </div>
 
@@ -121,6 +122,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="src/js/myjs.js"></script>
     
 
     <!--Works but not included in final submission because navigation refuses to work-->
