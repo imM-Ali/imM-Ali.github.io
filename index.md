@@ -104,9 +104,7 @@
                     <li><a href="html.html">Html</a></li>
                     <li><a href="css.html">CSS</a></li>
                     <li><a href="js.html">Javascript</a></li>
-                    <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<i
-                            class="ml-3 text-secondary fab fa-facebook"></i><i
-                            class="ml-1 text-secondary fab fa-github"></i></p>
+                    <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463<a style="font-size: 25px;" href="https://github.com/imM-Ali/imM-Ali.github.io" class="ml-1 text-secondary fab fa-github"></a></p>
                 </ul>
             </div>
 
