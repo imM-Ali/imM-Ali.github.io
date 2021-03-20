@@ -83,12 +83,12 @@
                 </div>
             </div>
 
-        </div>
+        </div><hr>
          <!--View source button sourced from 
     https://stackoverflow.com/questions/41945094/add-option-to-view-source-of-current-html-page -->
         <div class="row mt-5 mb-2">
         <div class="col-12 text-center">
-            <button class="btn btn-primary" type ="button" onclick="viewSource()">View HTML</button>
+            <button class="btn btn-primary" type ="button" onclick="viewSource()">View Page HTML</button>
         </div>            
         </div>
 
