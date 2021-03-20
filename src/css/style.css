@@ -76,6 +76,8 @@ body{
 .footer-img{
     margin-top:35px;
 }
+/*fade in effect sourced from 
+https://www.tutorialspoint.com/css/css_animation_fade_in.htm*/
 
 .anim { 
 	animation: fadeInAnimation ease 1s ;
@@ -98,5 +100,24 @@ body{
   }
  
 
-
+  #back2Top {
+    width: 38px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    background-color: #DDD;
+    color:gray;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
   

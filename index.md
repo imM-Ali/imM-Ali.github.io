@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    
+
     <!--Navigatiov Section-->
     <nav id="mynav" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="index.html"><span class="ml-3"><i style="font-size: 3rem;"
@@ -83,14 +83,20 @@
                 </div>
             </div>
 
-        </div><hr>
-         <!--View source button sourced from 
+        </div>
+        <hr>
+        <!--View source button sourced from 
     https://stackoverflow.com/questions/41945094/add-option-to-view-source-of-current-html-page -->
         <div class="row mt-5 mb-2">
-        <div class="col-12 text-center">
-            <button class="btn btn-primary" type ="button" onclick="viewSource()">View Page HTML</button>
-        </div>            
+            <div class="col-12 text-center">
+                <button class="btn btn-primary" type="button" onclick="viewSource()">View Page HTML</button>
+            </div>
         </div>
+
+        <!--Back to top button sourced from 
+        https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/  -->
+
+        <a id="back2Top" title="Back to top" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
 
 
@@ -105,7 +111,9 @@
                     <li><a href="pages/css.html">CSS</a></li>
                     <li><a href="pages/js.html">Javascript</a></li>
                     <p class="mt-sm-1  mt-lg-4">Created by <span class="text-white">Muhammad Ali Shahzaib</span> 2020463
-                        <a style="font-size: 25px;" href="https://github.com/imM-Ali/imM-Ali.github.io" class="ml-1 text-secondary fab fa-github"></a></p>
+                        <a style="font-size: 25px;" href="https://github.com/imM-Ali/imM-Ali.github.io"
+                            class="ml-1 text-secondary fab fa-github"></a>
+                    </p>
                 </ul>
             </div>
 
@@ -122,12 +130,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script src="src/js/myjs.js"></script>
-    
+    <script src="src/js/myjs.js"></script>
 
-    <!--Works but not included in final submission because navigation refuses to work-->
-    <!--All html pages could be loaded on the same page through this javascript rather than loading as a seperate page-->
-    <!--https://stackoverflow.com/questions/15808348/change-html-code-without-refreshing-the-page-->
+
+    <!--Works but not included in final submission because navigation refuses to work
+    All html pages could be loaded on the same page through this javascript rather than loading as a seperate page 
+    https://stackoverflow.com/questions/15808348/change-html-code-without-refreshing-the-page   -->
 
 </body>
 
